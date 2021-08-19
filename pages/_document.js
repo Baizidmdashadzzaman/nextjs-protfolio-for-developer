@@ -1,5 +1,5 @@
 import Document, { Html, Head, Main, NextScript } from 'next/document'
-
+import Script from 'next/script'
 class MyDocument extends Document {
   static async getInitialProps(ctx) {
     const initialProps = await Document.getInitialProps(ctx)
@@ -26,23 +26,23 @@ class MyDocument extends Document {
           <Main />
           <NextScript />
         </body>
-		  <script src="assets/js/jquery-1.10.1.min.js"></script>
-		  <script src="assets/js/popper.min.js"></script>
-		  <script src="assets/js/bootstrap.min.js"></script>
-		  <script src="assets/js/owl.carousel.min.js"></script>
-		  <script src="assets/js/counterup.min.js"></script>
-		  <script src="assets/js/waypoints.min.js"></script>
-		  <script src="assets/js/countdown.js"></script>
-		  <script src="assets/js/magnific-popup.min.js"></script>
-		  <script src="assets/js/isotope.pkgd.min.js"></script>
-		  <script src="assets/js/masonry.pkgd.min.js"></script>
-		  <script src="assets/js/imagesloaded.pkgd.min.js"></script>
-		  <script src="assets/js/jquery-ui.js"></script>
-		  <script src="assets/js/aos.js"></script>
-		  <script src="assets/js/validate.js"></script>
-          <script src="assets/js/gmaps.min.js"></script>
-          <script src="assets/js/mCustomScrollbar.js"></script>
-          <script src="assets/js/custom.js"></script>		
+		  <Script src="assets/js/jquery-1.10.1.min.js"></Script>
+		  <Script src="assets/js/popper.min.js"></Script>
+		  <Script src="assets/js/bootstrap.min.js"></Script>
+		  <Script src="assets/js/owl.carousel.min.js"></Script>
+		  <Script src="assets/js/counterup.min.js"></Script>
+		  <Script src="assets/js/waypoints.min.js"></Script>
+		  <Script src="assets/js/countdown.js"></Script>
+		  <Script src="assets/js/magnific-popup.min.js"></Script>
+		  <Script src="assets/js/isotope.pkgd.min.js"></Script>
+		  <Script src="assets/js/masonry.pkgd.min.js"></Script>
+		  <Script src="assets/js/imagesloaded.pkgd.min.js"></Script>
+		  <Script src="assets/js/jquery-ui.js"></Script>
+		  <Script src="assets/js/aos.js"></Script>
+		  <Script src="assets/js/validate.js"></Script>
+          <Script src="assets/js/gmaps.min.js"></Script>
+          <Script src="assets/js/mCustomScrollbar.js"></Script>
+          <Script src="assets/js/custom.js"></Script>		
       </Html>
     )
   }

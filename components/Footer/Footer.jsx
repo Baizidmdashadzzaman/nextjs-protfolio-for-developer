@@ -42,22 +42,22 @@ export default function Footer() {
 									<ul className="zoom-gallery mb-2 clearfix">
 										<li>
 											<a href="/assets/images/gifs/a.gif" className="popup-image">
-												<img src="/assets/images/gifs/a.gif" alt="image_not_found"/>
+												<Image layout='fill' src="/assets/images/gifs/a.gif" alt="image_not_found"/>
 											</a>
 										</li>
 										<li>
 											<a href="/assets/images/gifs/f35bbb9d69600ec552ca03870fb302e7.gif" className="popup-image">
-												<img src="/assets/images/gifs/f35bbb9d69600ec552ca03870fb302e7.gif" alt="image_not_found"/>
+												<Image layout='fill' src="/assets/images/gifs/f35bbb9d69600ec552ca03870fb302e7.gif" alt="image_not_found"/>
 											</a>
 										</li>
 										<li>
 											<a href="/assets/images/gifs/d3ecd45fd1a37b2e99cf466e3db89a97.gif" className="popup-image">
-												<img src="/assets/images/gifs/d3ecd45fd1a37b2e99cf466e3db89a97.gif" alt="image_not_found"/>
+												<Image layout='fill' src="/assets/images/gifs/d3ecd45fd1a37b2e99cf466e3db89a97.gif" alt="image_not_found"/>
 											</a>
 										</li>
 										<li>
 											<a href="/assets/images/gifs/2aad6055504d723c4a6ca02e91aa4a43.gif" className="popup-image">
-												<img src="/assets/images/gifs/2aad6055504d723c4a6ca02e91aa4a43.gif" alt="image_not_found"/>
+												<Image layout='fill' src="/assets/images/gifs/2aad6055504d723c4a6ca02e91aa4a43.gif" alt="image_not_found"/>
 											</a>
 										</li>
 									</ul>
