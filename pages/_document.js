@@ -22,8 +22,14 @@ class MyDocument extends Document {
 		     <link rel="stylesheet" type="text/css" href="assets/css/aos.css" />
              <link rel="stylesheet" type="text/css" href="assets/css/style.css" />
         </Head>
-        <body>
-          <Main />
+        <body className="home-freelancer">
+		  <div id="thetop"></div>
+		  <div id="backtotop">
+			<a href="#" id="scroll">
+				<i className="far fa-arrow-up"></i>
+			</a>
+		  </div>
+		  <Main />
           <NextScript />
         </body>
 		  <Script src="assets/js/jquery-1.10.1.min.js"></Script>
