@@ -10,7 +10,7 @@ class MyDocument extends Document {
     return (
       <Html>
         <Head>
-			 <link rel="shortcut icon" href="/assets/images/Asset22.png" />
+			 <link rel="shortcut icon" href="/favicon.ico" />
              <link rel="stylesheet" type="text/css" href="assets/css/bootstrap.min.css" />
 		     <link rel="stylesheet" type="text/css" href="assets/css/fontawesome-all.css" />
 		     <link rel="stylesheet" type="text/css" href="assets/css/icomoon.css" />
@@ -31,24 +31,24 @@ class MyDocument extends Document {
 		  </div>
 		  <Main />
           <NextScript />
-        </body>
-		  <Script src="assets/js/jquery-1.10.1.min.js"></Script>
-		  <Script src="assets/js/popper.min.js"></Script>
-		  <Script src="assets/js/bootstrap.min.js"></Script>
-		  <Script src="assets/js/owl.carousel.min.js"></Script>
-		  <Script src="assets/js/counterup.min.js"></Script>
-		  <Script src="assets/js/waypoints.min.js"></Script>
-		  <Script src="assets/js/countdown.js"></Script>
-		  <Script src="assets/js/magnific-popup.min.js"></Script>
-		  <Script src="assets/js/isotope.pkgd.min.js"></Script>
-		  <Script src="assets/js/masonry.pkgd.min.js"></Script>
-		  <Script src="assets/js/imagesloaded.pkgd.min.js"></Script>
-		  <Script src="assets/js/jquery-ui.js"></Script>
-		  <Script src="assets/js/aos.js"></Script>
-		  <Script src="assets/js/validate.js"></Script>
-          <Script src="assets/js/gmaps.min.js"></Script>
-          <Script src="assets/js/mCustomScrollbar.js"></Script>
-          <Script src="assets/js/custom.js"></Script>		
+		  <script async src="assets/js/jquery-1.10.1.min.js" />
+		  <script async src="assets/js/popper.min.js" />
+		  <script async src="assets/js/bootstrap.min.js" />
+		  <script async src="assets/js/owl.carousel.min.js" />
+		  <script async src="assets/js/counterup.min.js" />
+		  <script async src="assets/js/waypoints.min.js" />
+		  <script async src="assets/js/countdown.js" />
+		  <script async src="assets/js/magnific-popup.min.js" />
+		  <script async src="assets/js/isotope.pkgd.min.js" />
+		  <script async src="assets/js/masonry.pkgd.min.js" />
+		  <script async src="assets/js/imagesloaded.pkgd.min.js" />
+		  <script async src="assets/js/jquery-ui.js" />
+		  <script async src="assets/js/aos.js" />
+		  <script async src="assets/js/validate.js" />
+          <script async src="assets/js/gmaps.min.js" />
+          <script async src="assets/js/mCustomScrollbar.js" />
+          <script async src="assets/js/custom.js" />
+        </body>	
       </Html>
     )
   }
